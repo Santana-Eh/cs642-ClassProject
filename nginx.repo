@@ -1,0 +1,7 @@
+# Add this file into the same directory of Dockerfile 
+# Can set gpgcheck if to 0 or 1 - Security  
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/rhel/7/$basearch/
+gpgcheck=1
+enabled=1
